@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14DCEC0B8CD21F1C424D2D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD37AD59A22DC86B6166643 /* Assets.xcassets */; };
 		7268324192F786D8CB0B6BCE /* AtlasQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0CF8545BA90D3E277C9273 /* AtlasQuizApp.swift */; };
 		8204715326126FF2990F4077 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63CA514C6DFBEC9A06A7B42 /* WebView.swift */; };
+		8A80ADFA50C4B1AA8FD5FB92 /* WebContent in Resources */ = {isa = PBXBuildFile; fileRef = 1806BC1840DF08387F5E58F8 /* WebContent */; };
 		9908D7F209E9DE587E83D92F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A3517E68693691B098129F /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02A3517E68693691B098129F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1806BC1840DF08387F5E58F8 /* WebContent */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WebContent; path = Resources/WebContent; sourceTree = SOURCE_ROOT; };
 		1B0CF8545BA90D3E277C9273 /* AtlasQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtlasQuizApp.swift; sourceTree = "<group>"; };
 		2A36934DD900D80BA4634B68 /* AtlasQuiz.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = AtlasQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD37AD59A22DC86B6166643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D63CA514C6DFBEC9A06A7B42 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		093A324A2EF40B7EA19297B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BCD37AD59A22DC86B6166643 /* Assets.xcassets */,
+				1806BC1840DF08387F5E58F8 /* WebContent */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		293061A5311A2DEB09842F39 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -33,6 +46,7 @@
 		5F8B1E56F51521FFB0EB2362 = {
 			isa = PBXGroup;
 			children = (
+				093A324A2EF40B7EA19297B4 /* Resources */,
 				293061A5311A2DEB09842F39 /* Sources */,
 				D00D0DEF2AA9BBDFC871099D /* Products */,
 			);
@@ -54,6 +68,7 @@
 			buildConfigurationList = 91EF781EC0CD665E91C42772 /* Build configuration list for PBXNativeTarget "AtlasQuiz" */;
 			buildPhases = (
 				5733CAF38730BB08E6E20AD6 /* Sources */,
+				2DB2F9748D05274E11E8A7AF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -95,6 +110,18 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DB2F9748D05274E11E8A7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DCEC0B8CD21F1C424D2D7D /* Assets.xcassets in Resources */,
+				8A80ADFA50C4B1AA8FD5FB92 /* WebContent in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5733CAF38730BB08E6E20AD6 /* Sources */ = {

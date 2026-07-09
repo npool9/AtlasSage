@@ -12,10 +12,11 @@ targets:
     deploymentTarget: "16.0"
     sources:
       - path: Sources
-    resources:
       - path: Resources/Assets.xcassets
+        buildPhase: resources
       - path: Resources/WebContent
         type: folder
+        buildPhase: resources
     info:
       path: Resources/Info.plist
       properties:
