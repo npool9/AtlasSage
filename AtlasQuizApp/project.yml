@@ -21,7 +21,7 @@ targets:
       path: Resources/Info.plist
       properties:
         CFBundleDisplayName: Atlas Sage
-        CFBundleVersion: "8"
+        CFBundleVersion: "9"
         CFBundleShortVersionString: "1.0"
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
@@ -39,6 +39,6 @@ targets:
         TARGETED_DEVICE_FAMILY: "1"
         IPHONEOS_DEPLOYMENT_TARGET: "16.0"
         MARKETING_VERSION: "1.0"
-        CURRENT_PROJECT_VERSION: "8"
+        CURRENT_PROJECT_VERSION: "9"
         DEVELOPMENT_TEAM: J9ML2ABRFJ
         CODE_SIGN_STYLE: Automatic
